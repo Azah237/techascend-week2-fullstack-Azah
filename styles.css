@@ -1,3 +1,61 @@
-#myText {
-    display: none;
+/* Import a clean Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Page styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.7;
+    padding:40px;
+    max-width:800px;
+    margin:auto;
+}
+
+/* Heading */
+h1{
+    font-size:2.5rem;
+    font-weight:600;
+    margin-bottom:20px;
+    color:#1a2a44;
+}
+
+/* Paragraph */
+p{
+    font-size:1.1rem;
+    margin-bottom:30px;
+}
+
+/* Button */
+button{
+    padding:12px 24px;
+    font-size:1rem;
+    border:none;
+    border-radius:8px;
+    background:#4f46e5;
+    color:white;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover{
+    background:#3730a3;
+    transform:translateY(-2px);
+}
+
+/* Section text */
+#myText{
+    margin-top:25px;
+    font-size:1.2rem;
+    font-weight:500;
+    color:#2c7a7b;
+    display:none;
 }
